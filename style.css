@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(0,25,85,0.30),rgba(0,25,220,0.30)),url(images/Img1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.Menu{
+    width: 100%;
+    height: auto;
+    background-color: rgb(rgba(10, 9, 17,0.8));
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+    
+.ulnav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    line-height: 25px;
+}
+    
+.ulnav a {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Times new roman';
+    color: whitesmoke;
+    padding: 0 30px;
+}
+
+ul li a:hover {
+    color: grey;
+}
+
+.Logo {
+    float: left;
+    height: 100px;
+    width: 100px;
+    background-color: linear-gradient(rgba(10, 9, 17,0.8),rgb(rgba(10, 9, 17,0.8)));
+}
+.h2P1{
+    text-align: center;
+    margin-top: 30px;
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 35px;
+    border-bottom: 10px solid whitesmoke;
+}
+iframe{
+    width: 30%;
+    height: 200px;
+    border: 5px solid whitesmoke;
+    margin-bottom: 50px;
+}
+.Video{
+    text-align: center;
+    margin-top: 70px;
+    
+    
+}
+.Imgp1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
+    height: auto;
+    width: 40%;
+    border: 5px solid whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    filter: grayscale(0.2);
+    background-image: linear-gradient(rgba(0,25,85,0.80),rgba(24, 27, 51, 0.6));
+}
+.pp1{
+    margin-top: 20px;
+    width: 60%;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    color: whitesmoke;
+    text-align: justify;
+    border: 5px solid white;
+    border-color: whitesmoke;
+    padding: 5%;
+    font-weight: 450;
+    background-image: linear-gradient(rgba(0,25,85,1),rgba(24, 27, 51, 0.6));
+}
+
+    
+footer {
+    position: fixed;
+    left: 20%;
+    bottom: 0;
+    width: 60%;
+    background-color: rgb(20, 49, 131);
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.P2I {
+    margin-top: 50px;
+    margin-bottom: 50px;    
+    height: 375px;
+    width: 650px;
+    border: 5px solid whitesmoke;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-image: linear-gradient(rgba(0,25,85,0.80),rgba(24, 27, 51, 0.6));
+}
+h3{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+
+.container{
+    width: 80%;
+    height: auto;
+    margin-left: 16%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.IMGP2{
+    height: 450px;
+    width: 800px;
+}
+
+.P3S1{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    background-image: linear-gradient(rgba(0,25,85,0.80),rgba(24, 27, 51, 0.6));
+}
+.P3S11{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    text-align: justify;
+    color: whitesmoke   ;
+}
+
+.P3ST{
+    width: 40%;
+    height: 80%;
+    font-size: 28px;
+    margin-top: 20px;
+    align-self: center;
+    
+}
+.P3SI{
+    width: 40%;
+    height: 80%;
+    margin-top: 20px;
+}
+
+.P3SI img{
+    height: 350px;
+    width: 90%;
+}
+
+
+
+
+.dropbtn {
+    background-color:#151227 ;
+    opacity: 0.8;
+    color: white;
+    padding: 2px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #151227;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #0e0d18;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #0f0d1a;}
+
+  .P3H3{
+    margin: 20px;
+  }
+  audio{
+    margin-bottom: 30px;
+  }
+
+  .ContainerMA {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0,25,85,1),rgba(24, 27, 51, 1)) ;
+  }
+  .SmallMA {
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  
+.pps{
+    margin-top: 20px;
+    width: 60%;
+    font-size: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: whitesmoke;
+    text-align: justify;
+    border: 5px solid white;
+    border-color: whitesmoke;
+    padding: 5%;
+    font-weight: 300;
+    background-image: linear-gradient(rgba(0,25,85,1),rgba(24, 27, 51, 0.6));
+    
+}
+.ImgAppli{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-color: whitesmoke;
+    border-radius: 3px;
+    border: 3px;
+
+}
+.logofb{
+    height: 120px;
+    width: 200px;
+    margin-left: 35%;
+}
+
+.ULDiv {
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    text-align: center;
+}
+
+.ULPlan{
+    list-style-type: none;
+}
+.ULPlan li{
+    margin-top: 20px;
+    font-size: 30px;
+    color: whitesmoke;
+    list-style: none;
+    
+}
