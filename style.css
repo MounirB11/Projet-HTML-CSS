@@ -1,7 +1,10 @@
+/* Définir la marge de toute la page à 0 pour commencer */
 *{
     margin: 0;
     padding:0;
 }
+
+/* Définir les paramètres du body */
 body {
     margin: 0;
     padding: 0;
@@ -14,6 +17,7 @@ body {
     background-size: cover;
 }
 
+/* Les 4 prochains codes sont mon menu */
 
 .Menu{
     width: 100%;
@@ -34,7 +38,7 @@ body {
 .ulnav a {
     display: block;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1em;
     font-family: 'Times new roman';
     color: whitesmoke;
     padding: 0 30px;
@@ -44,12 +48,15 @@ ul li a:hover {
     color: grey;
 }
 
+/* Logo dans mon menu */
 .Logo {
     float: left;
     height: 100px;
     width: 100px;
     background-color: linear-gradient(rgba(10, 9, 17,0.8),rgb(rgba(10, 9, 17,0.8)));
 }
+
+/* Titre dans toutes mes pages */
 .h2P1{
     text-align: center;
     margin-top: 30px;
@@ -58,34 +65,47 @@ ul li a:hover {
     font-size: 35px;
     border-bottom: 10px solid whitesmoke;
 }
+
+/* Vidéos youtube */
+
 iframe{
     width: 30%;
     height: 200px;
     border: 5px solid whitesmoke;
     margin-bottom: 50px;
 }
+
+
+/* Vidéo youtube */
+
 .Video{
     text-align: center;
     margin-top: 70px;
     
     
 }
+
+/* Image dans ma page 1 */
+
 .Imgp1{
     margin-top: 50px;
     margin-bottom: 50px;
     display: block;
     height: auto;
-    width: 40%;
+    width: 50%;
     border: 5px solid whitesmoke;
     margin-left: auto;
     margin-right: auto;
     filter: grayscale(0.2);
     background-image: linear-gradient(rgba(0,25,85,0.80),rgba(24, 27, 51, 0.6));
 }
+
+/* Paragraphe page 1  */
+
 .pp1{
     margin-top: 20px;
-    width: 60%;
-    font-size: 25px;
+    width: 50%;
+    font-size: 1em;
     margin-left: auto;
     margin-right: auto;
     color: whitesmoke;
@@ -97,61 +117,36 @@ iframe{
     background-image: linear-gradient(rgba(0,25,85,1),rgba(24, 27, 51, 0.6));
 }
 
-    
+/* Footer dans toutes les pages */
+
 footer {
     position: fixed;
-    left: 20%;
+    left: 25%;
     bottom: 0;
-    width: 60%;
+    width: 50%;
     background-color: rgb(20, 49, 131);
     color: white;
     text-align: center;
     align-items: center;
 }
-.P2I {
-    margin-top: 50px;
-    margin-bottom: 50px;    
-    height: 375px;
-    width: 650px;
-    border: 5px solid whitesmoke;
-    margin-left: 50px;
-    margin-right: 50px;
-    background-image: linear-gradient(rgba(0,25,85,0.80),rgba(24, 27, 51, 0.6));
-}
-h3{
-    color: whitesmoke;
-    text-align: center;
-    margin-top: 50px;
-    font-size: 25px;
-}
 
-
-.container{
-    width: 80%;
-    height: auto;
-    margin-left: 16%;
-    margin-right: 10%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 5%;
-}
-
-.IMGP2{
-    height: 450px;
-    width: 800px;
-}
+/* Container de ma page Machine learning qui contient 3 divs */
 
 .P3S1{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 50%;
     justify-content: center;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 20px;
     background-image: linear-gradient(rgba(0,25,85,0.80),rgba(24, 27, 51, 0.6));
+    border: 5px solid white;
+    margin-left: 25%;
+    margin-right: 25%;
 }
+
+/* Container de ma page Machine learning qui contient 2 divs */
 .P3S11{
     display: flex;
     flex-direction: row;
@@ -159,30 +154,37 @@ h3{
     height: auto;
     justify-content: space-around;
     text-align: justify;
-    color: whitesmoke   ;
+    color: whitesmoke ;
+
 }
+
+/* Container texte de ma page Machine learning */
 
 .P3ST{
     width: 40%;
     height: 80%;
-    font-size: 28px;
+    font-size: 1em;
     margin-top: 20px;
     align-self: center;
     
 }
+
+/* Container Image de ma page machine learning */
+
 .P3SI{
     width: 40%;
     height: 80%;
     margin-top: 20px;
 }
 
+/* Images de ma page Machine learning */
+
 .P3SI img{
-    height: 350px;
+    height: auto;
     width: 90%;
 }
 
-
-
+/* Boutton menu déroulant */
 
 .dropbtn {
     background-color:#151227 ;
@@ -193,11 +195,14 @@ h3{
     border: none;
   }
   
+/* Paramètres menu déroulant */
+
   .dropdown {
     position: relative;
     display: inline-block;
   }
   
+/* Paramètres du contenu du menu déroulant */
 
   .dropdown-content {
     display: none;
@@ -208,12 +213,16 @@ h3{
     z-index: 1;
   }
   
+  /* Paramètres des liens du menu déroulant */
+
   .dropdown-content a {
     color: white;
     padding: 5px 5px;
     text-decoration: none;
     display: block;
   }
+
+  /* Paramètres au passage de la souris du menu déroulant */
   
   .dropdown-content a:hover {background-color: #0e0d18;}
   
@@ -221,12 +230,20 @@ h3{
   
   .dropdown:hover .dropbtn {background-color: #0f0d1a;}
 
+/* Sous-titre de l'audio sur l'analyse de données */
+
   .P3H3{
     margin: 20px;
+    color: whitesmoke;
   }
+
+  /* Audio de l'analyse de données */
+
   audio{
     margin-bottom: 30px;
   }
+
+  /* Container avec les images de ma page Mon appli */
 
   .ContainerMA {
     display: flex;
@@ -235,17 +252,13 @@ h3{
     justify-content: center;
     background-image: linear-gradient(rgba(0,25,85,1),rgba(24, 27, 51, 1)) ;
   }
-  .SmallMA {
-    display: flex;
-    flex-direction: row;
 
-  }
+  /* Container principale de la page Sources */
 
-  
 .pps{
     margin-top: 20px;
-    width: 60%;
-    font-size: 10px;
+    width: 50%;
+    font-size: 1em;
     margin-left: auto;
     margin-right: auto;
     color: whitesmoke;
@@ -257,6 +270,9 @@ h3{
     background-image: linear-gradient(rgba(0,25,85,1),rgba(24, 27, 51, 0.6));
     
 }
+
+/* Paramètres des images dans mon application */
+
 .ImgAppli{
     width: 50%;
     margin-left: 25%;
@@ -264,31 +280,67 @@ h3{
     height: auto;
     margin-top: 1%;
     margin-bottom: 1%;
-    border-color: whitesmoke;
-    border-radius: 3px;
-    border: 3px;
+    border: 5px solid white;
 
 }
+
+/* Logo Facebook dans la page Contact */
+
 .logofb{
-    height: 120px;
-    width: 200px;
+    height: auto;
+    width: 25%;
     margin-left: 35%;
 }
 
+/* Div dans la page des sources */
+
 .ULDiv {
-    width: 60%;
+    width: 50%;
     margin-right: 20%;
     margin-left: 20%;
     text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
 }
+
+/* paramètres de la liste dans ma page Plan */
 
 .ULPlan{
     list-style-type: none;
 }
 .ULPlan li{
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 40px;
     color: whitesmoke;
-    list-style: none;
-    
+}
+
+/* Paramètres des images des logos dans mon footer */
+
+.logofbbot{
+    width: 10%;
+    height: auto;
+    margin-bottom: 3px;
+}
+.logotwbot{
+    width: 10%;
+    height: auto;
+}
+.footerlogo{
+    display: flex;
+    justify-content: flex-start;
+}
+.logoemailbot{
+    width: 10%;
+    height: auto;
+}
+.planbot{
+    width: 40%;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.LogoContact {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
 }
